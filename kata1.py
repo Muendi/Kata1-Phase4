@@ -31,3 +31,14 @@ def find_unsorted_subarray(arr):
 arr = [1, 2, 3, 6, 4, 4]
 result = find_unsorted_subarray(arr)
 print(result)
+
+
+# Part 2
+def sort_strings_by_length(arr):
+    # This sorts the array based on the string length using the sorted function.
+    sorted_array = sorted(arr, key=len)
+    return sorted_array
+
+strings_array = ["Telescopes", "Glasses", "Eyes", "Monocles"]
+result = sort_strings_by_length(strings_array)
+print(result)
