@@ -6,3 +6,9 @@ For example, in an array [1,2,3,6,4,4], the SMALLEST(with the least numbers of i
 If all elements in the array are the same, return array [0,0]. If all elements in the array are already sorted, no matter ascendingly or descendingly, return [0,0] as well.
 
 Part 2
+Write a function that takes an array of strings as an argument and returns a sorted array containing the same strings, ordered from shortest to longest.
+For example, if this array were passed as an argument:
+["Telescopes", "Glasses", "Eyes", "Monocles"]
+Your function would return the following array:
+["Eyes", "Glasses", "Monocles", "Telescopes"]
+All of the strings in the array passed to your function will be different lengths, so you will not have to decide how to order multiple strings of the same length.
